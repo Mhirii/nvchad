@@ -8,7 +8,7 @@ o.showmode = false
 
 o.clipboard = "unnamedplus"
 o.cursorline = true
-o.cursorlineopt = "number"
+o.cursorlineopt = "both"
 
 -- Indenting
 o.expandtab = true
@@ -26,6 +26,7 @@ o.mouse = "a"
 o.number = true
 o.numberwidth = 2
 o.ruler = false
+o.relativenumber = true
 
 -- disable nvim intro
 opt.shortmess:append "sI"
